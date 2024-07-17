@@ -1,0 +1,267 @@
+@import "vars"
+@import "fonts"
+
+//start global style
+body
+    margin: 0 
+    padding: 0
+    font-family: $main-font 
+    font-size: 4.267vw
+    padding-top: 8vw
+    padding-bottom: 0vw
+    color: $dark
+    min-height: 100vh
+.top-bg
+    position: absolute
+    top: 0 
+    left: 0 
+    width: 100vw
+.bottom-bg 
+    width: 100vw
+    position: relative
+    top: 3vw
+.container 
+    margin-left: auto 
+    margin-right: auto 
+    width: 91.467vw
+.h1 
+    font-size: 10.667vw
+    font-style: italic
+    font-weight: 700
+    font-family: "IBM Plex Sans", sans
+    margin: 0
+    line-height: 1
+.h2 
+    font-size: 9.6vw
+    font-family: serif
+    font-style: italic
+    font-weight: 700
+    font-family: "IBM Plex Sans", sans
+    margin: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    text-align: center
+    margin-bottom: 4vw
+    img 
+        display: block 
+        margin-left: 1.787vw
+        width: 6.8vw
+.h2--blue
+    color: $blue
+.text-m
+    text-align: center
+    font-size: 6.4vw
+    font-weight: 600
+.button 
+    background: $blue
+    display: flex 
+    justify-content: center 
+    align-items: center
+    height: 55px
+    color: #fff 
+    text-decoration: none
+    border-radius: 10vw
+    font-size: 5.067vw
+    text-transform: uppercase
+    font-style: italic
+    font-weight: 600
+    img 
+        display: block 
+        margin-left: 2.667vw
+        width: 4.907vw
+.text-center 
+    text-align: center
+p 
+    margin-top: 0 
+    margin-bottom: 0
+.p-text 
+    padding-left: 2vw 
+    padding-right: 2vw
+    
+//end global style 
+
+//Start header style
+.logo 
+    width: 38.441vw
+    margin-left: auto 
+    margin-right: auto
+    display: block
+    margin-bottom: 4.267vw
+    img 
+        width: 100%
+.header 
+    .h1
+        text-align: center
+    .h2 
+        text-align: center
+        justify-content: center
+//end header style
+
+//start main-screen style 
+.main-screen__content
+    background: #fff
+    border-radius: 5.333vw
+    padding-top: 6.4vw
+    padding-bottom: 6.4vw
+    border: 1px solid rgba(#CE2B37, 0.12)
+    box-shadow: 0px 0px 5.6vw rgba(#CE2B37, .2)
+    position: relative
+    z-index: 999
+    margin-top: -34vw
+    padding-left: 4.533vw
+    padding-right: 4.533vw
+    text-align: center
+    overflow: hidden
+.main-screen__photo
+    width: 89.6vw
+    display: block 
+    margin-left: auto 
+    margin-right: auto
+.banner 
+    width: 86.4vw
+    position: relative
+    left: 0.5vw
+.countdown
+  display: flex
+  justify-content: center
+  align-items: center
+  font-size: 2em
+.time-section
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin: 0 10px
+.time-number
+  font-size: 9.6vw 
+  font-family: "Inter", sans-serif
+  font-weight: 700
+  width: 17.067vw
+  height: 15.733vw 
+  background: #009246
+  color: #fff
+  display: flex 
+  justify-content: center 
+  align-items: center
+  border-radius: 1.333vw
+.time-number--2
+  background: #009246
+.time-number--3
+  background: #009246
+.countdown--orange
+    .time-number
+        background: linear-gradient(90deg, #ff8a01, #ff7e00)
+    .time-number--2
+        background: linear-gradient(90deg, #ff7b01, #ff5000)
+    .time-number--3
+        background: linear-gradient(90deg, #ff5c00, #ff0000)
+.countdown 
+  margin-top: 4vw
+.time-label
+  font-size: 2.933vw 
+  text-transform: uppercase
+  margin-top: 5px
+  font-family: "Inter", sans-serif
+.main-screen__text
+    display: flex 
+    align-items: center
+    font-size: 4.267vw
+    margin-top: 4.267vw
+    img 
+        display: block 
+        margin-left: 1vw
+//end main-screen style
+
+//start benefits style 
+.benefits 
+    padding-top: 12.8vw
+    padding-bottom: 12.8vw
+.benefits__image
+    box-shadow: 0px 0px 5.6vw rgba(#CE2B37, .2)
+    border-radius: 5vw
+    width: 90vw
+    display: block 
+    margin-left: auto 
+    margin-right: auto
+.items-list
+    padding-top: 3.733vw
+    padding-bottom: 3.733vw
+.item 
+    text-align: center
+    padding-top: 3.733vw
+    padding-bottom: 3.733vw
+.item__icon-wrapper 
+    width: 16vw
+    height: 16vw
+    display: flex 
+    justify-content: center 
+    align-items: center 
+    border-radius: 50%
+    background: $green
+    margin-left: auto 
+    margin-right: auto
+    margin-bottom: 2vw
+.item__icon-image
+    width: 10.667vw
+.item:nth-child(even) .item__icon-wrapper
+    background: $red
+.telegram-link
+    display: flex 
+    justify-content: center 
+    align-items: center
+    margin-top: 1.067vw
+    color: #29A0DC
+    font-size: 5.333vw
+    font-weight: 600
+    text-decoration: none
+    img 
+        width: 5.867vw
+        height: 5.867vw
+        display: block 
+        margin-left: 1.787vw
+//end benefits style
+
+.why-flirty__img
+    display: block 
+    margin-left: auto 
+    margin-right: auto
+    width: 100%
+    margin-top: 20px 
+    margin-bottom: 20px
+.cta 
+    padding-top: 12.533vw
+    padding-bottom: 12.533vw
+.cta__image
+    width: 100%
+    box-shadow: 0px 0px 5.6vw rgba(#CE2B37, .2)
+    border-radius: 3vw
+    display: block 
+    margin-bottom: 6.667vw
+
+//start footer style 
+.footer 
+    text-align: center
+    padding-bottom: 6vw
+.footer__text 
+    font-weight: 700
+    margin-bottom: 4.2vw
+.footer__p
+    font-size: 3.2vw
+//end footer style 
+
+//start black mode 
+.black-mode
+    background: #141320
+    color: #fff
+.main-screen__content
+    color: #1B2838
+//end black mode 
+
+//start orange mode light style 
+
+//end orange mode light style
+
+@import "media"
+
+
+
